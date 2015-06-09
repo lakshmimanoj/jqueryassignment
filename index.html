@@ -1,0 +1,40 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<title></title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"></script>
+<script type="text/javascript" src="js/script.js"></script>
+</head>
+<body>
+<div id="mainWrapper">
+<select id="followersSelection" name="followersList">
+<option>Followers</option>
+</select>
+<div id ="followersDetails"></div>
+<button type="button" id="followerclear">Clear</button>
+<br>    
+<select id="followingSelection" name="followingList">
+ <option>Following</option>
+</select>
+<div id ="followingDetails"></div>
+<button type="button" id="followingclear">Clear</button>
+<table id="repoTable">
+<tr>
+<th>Name</th>
+<th>Full Name</th>
+<th>Size</th>
+<th>Created At</th>
+<th>Language</th>
+<th>Has Issues</th>
+<th>Has Downloads</th>
+<th>Watchers</th>
+</tr>
+</table>
+<center><img id="loader" src="img/ajax-loader.gif"></center>
+</div>
+</body>
+</html>
